@@ -37,46 +37,36 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
-      flex: 2;
     }
 
     .right-side {
       flex: 1.5;
     }
 
-    .section1{
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5 {
       background-color: #fff8dd;
       padding: 15px;
       border-radius: 10px;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
 
+    .section3 {
+      min-height: 380px;
     }
-        .section2{
-      background-color: #fff8dd;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    .section4 {
+      max-height: 520px;
     }
-        .section3{
-      background-color: #fff8dd;
-      padding: 15px;
-      border-radius: 10px;
-      height:300px;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    } 
-       .section4{
-      background-color: #fff8dd;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    .section5 {
+      margin-top: -220px;
+      max-width: 400px; /* Reduced width */
     }
-.section5 {
-  background-color: #fff8dd;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  margin-top: -220px;
-}
+
     .section5 h3,
     .section1 h3,
     .section2 h3,
@@ -88,7 +78,6 @@
       border-radius: 5px;
       font-size: 16px;
       margin-top: 0;
-      
     }
 
     .form-group {
@@ -204,7 +193,6 @@
         <div class="form-group"><label>Seat Leakage Class</label><select></select></div>
       </div>
 
-    
       <div class="section5">
         <h3>Nominal Pipe Data</h3>
         <div class="form-group"><label>Inlet Pipe Size</label><select></select></div>
